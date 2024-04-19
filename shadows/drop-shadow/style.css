@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Urbanist";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  background-color: black;
+  display: grid;
+  place-items: center;
+}

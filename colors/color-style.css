@@ -1,0 +1,49 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+h1 {
+  color: red;
+  color: rgb(255, 0, 0);
+}
+
+p {
+  color: blue;
+  color: rgb(0, 0, 255);
+}
+
+h1 {
+  color: rgba(255, 0, 0, 1);
+}
+
+p {
+  color: rgba(0, 0, 255, 0.5);
+}
+
+h1 {
+  color: #ff0000;
+}
+
+p {
+  color: #ccc;
+}
+
+h1 {
+  color: hsla(15, 100%, 50%, 0.944);
+}
+
+p {
+  color: hsl(226, 84%, 17%);
+}
+
+h1 {
+  color: hsl(0, 100%, 50%, 0.5);
+}
+
+p {
+  color: hsl(226, 84%, 17%, 0.8);
+}

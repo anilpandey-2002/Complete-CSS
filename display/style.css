@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Urbanist;
+}
+
+body {
+  padding: 50px 100px;
+  background-color: hsla(0, 0%, 94%);
+}
+
+#main-heading {
+  color: #1e1403;
+  text-align: left;
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+p {
+  width: 500px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px 20px;
+  margin-bottom: 24px;
+}
+
+a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  border-radius: 5px;
+
+  padding: 15px 36px;
+  border: 1px solid red;
+  margin-top: 100px;
+  margin-right: 30px;
+
+  display: block;
+}
+
+p:nth-of-type(2),
+a:nth-of-type(2),
+.inline-block-elem:last-child {
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  display: none;
+}

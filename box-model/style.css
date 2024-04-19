@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Urbanist;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+}
+
+#main-heading {
+  padding: 40px 0;
+  font-weight: bold;
+  font-size: 48px;
+  color: #031721;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+/* box model css  */
+.section-one {
+  width: 800px;
+  background-color: #0f2c59;
+  color: #fff;
+  border: 20px solid #337ccf;
+  padding: 50px;
+  margin: 0 auto;
+}
